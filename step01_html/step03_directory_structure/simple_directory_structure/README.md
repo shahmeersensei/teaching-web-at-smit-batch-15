@@ -1,9 +1,10 @@
+```
 simple-website/
 ├── index.html
 ├── aboutus.html
 ├── contactus.html
 ├── services.html
-
+```
 
 # Simple Website Directory Structure
 
