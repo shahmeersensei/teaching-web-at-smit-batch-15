@@ -12,7 +12,7 @@ A **numbered list** is used to display a list of items in a specific order. It i
 #### Example:
 **File:** `numbered_list.html`
 
-```html
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,33 +31,32 @@ A **numbered list** is used to display a list of items in a specific order. It i
     </ol>
 </body>
 </html>
-
+```
 
 ## Notes on Outdated Tags and Current Practices
 
 ### Outdated Tags:
-Definition List (<dl>, <dt>, <dd>): These tags are still valid in HTML5 but are rarely used in modern web development. Instead, developers prefer using other semantic elements like tables for structured data. However, these tags are great for understanding how lists can be used in HTML.
-Bullet and Numbered Lists: The <ul> and <ol> tags are still widely used in modern development. However, be aware that for styling lists, CSS is commonly used today (e.g., using list-style-type to control bullet styles).
+Definition List ```<dl>, <dt>, <dd>```
+These tags are still valid in HTML5 but are rarely used in modern web development. Instead, developers prefer using other semantic elements like tables for structured data. However, these tags are great for understanding how lists can be used in HTML.
+Bullet and Numbered Lists: The ```<ul> and <ol>``` tags are still widely used in modern development. However, be aware that for styling lists, CSS is commonly used today (e.g., using list-style-type to control bullet styles).
 
 ### Current Best Practices:
-Semantic HTML: Always try to use semantic HTML tags (e.g., <article>, <section>, <nav>) to structure your content, instead of relying too heavily on list elements.
-CSS for Styling: Lists often require styling to improve their appearance, and this is typically done through CSS.
+Semantic HTML: 
+Always try to use semantic HTML tags ```<article>, <section>, <nav>``` to structure your content, instead of relying too heavily on list elements.
+CSS for Styling: Lists often require styling to improve their appearance, typically done through CSS.
 
 Happy coding! 🚀
 
-sql
-Copy code
-
----
 
 ### Explanation:
 
-- **Numbered Lists (`<ol>`)** are used when the order of items is important.
-- **Bullet Lists (`<ul>`)** are used when the order doesn’t matter, just a collection of items.
-- **Definition Lists (`<dl>`)** are used for listing terms and definitions (not commonly used but important for educational purposes).
-- **Nested Lists** are useful when you want to include more detailed items within a list, like categories or sub-items.
+**Numbered Lists (`<ol>`)** are used when the order of items is important.
+**Bullet Lists (`<ul>`)** are used when the order doesn’t matter, just a collection of items.
+**Definition Lists (`<dl>`)** are used for listing terms and definitions (not commonly used but important for educational purposes).
+**Nested Lists** are useful when you want to include more detailed items within a list, like categories or sub-items.
 
 The README provides a detailed explanation, examples, and tips for practicing each list type, and it mentions which tags are still valid but not as commonly used in modern web development.
+
 
 
 
