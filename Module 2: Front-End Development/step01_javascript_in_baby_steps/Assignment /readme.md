@@ -101,3 +101,173 @@
 8. **Delete a Property:** Remove `"age"` from an object.
 9. **Merge Two Objects:** Combine `{a:1}` and `{b:2}`.
 10. **Convert Object to Array:** Convert `{a:10, b:20}` into `[['a', 10], ['b', 20]]`.
+
+
+## 🚀 **4. Conditional Statements (if, else, else if, switch)**  
+
+### **1️⃣ Age-Based Permission System**  
+Write a JavaScript program that asks for a person's age.  
+- If the age is **18 or more**, print `"You are eligible to vote!"`.  
+- If the age is **less than 18**, print `"You are too young to vote!"`.  
+
+---
+
+### **2️⃣ Discount Calculator**  
+A store offers discounts based on the amount spent:  
+- If a customer spends **₹5000 or more**, they get a **20% discount**.  
+- If they spend **between ₹2000 and ₹4999**, they get a **10% discount**.  
+- Otherwise, they get **no discount**.  
+Write a JavaScript program to calculate the final amount the customer needs to pay.
+
+---
+
+### **3️⃣ Traffic Signal Checker**  
+Write a program that:  
+- Takes a variable `signalColor` (values: `"red"`, `"yellow"`, `"green"`).  
+- If `"red"`, print `"Stop! The signal is red."`  
+- If `"yellow"`, print `"Wait! The signal is yellow."`  
+- If `"green"`, print `"Go! The signal is green."`  
+- Otherwise, print `"Invalid color"`  
+
+---
+
+### **4️⃣ Even or Odd Number Checker**  
+Ask the user for a number and check whether it is even or odd.  
+- Print `"The number is even"` if the number is divisible by 2.  
+- Print `"The number is odd"` otherwise.  
+
+---
+
+### **5️⃣ Login Authentication System**  
+Create a program that:  
+- Takes two variables `username` and `password`.  
+- If `username === "admin"` and `password === "1234"`, print `"Login Successful!"`.  
+- Otherwise, print `"Incorrect Username or Password"`.
+
+---
+
+### **6️⃣ Grade Calculator**  
+Write a program that takes a student’s marks and assigns a grade:  
+- **90+** → `"A Grade"`  
+- **80-89** → `"B Grade"`  
+- **70-79** → `"C Grade"`  
+- **60-69** → `"D Grade"`  
+- **Below 60** → `"Fail"`  
+
+---
+
+### **7️⃣ Number Comparison (Greater, Smaller, Equal)**  
+Write a program that takes two numbers and prints:  
+- `"First number is greater"` if the first is larger.  
+- `"Second number is greater"` if the second is larger.  
+- `"Both numbers are equal"` if they are the same.  
+
+---
+
+### **8️⃣ Movie Ticket Pricing (Age-Based System)**  
+A cinema charges different prices based on age:  
+- **Children under 5 years:** Free  
+- **Age 5 to 12:** ₹100  
+- **Age 13 to 59:** ₹250  
+- **Senior citizens (60+ years):** ₹150  
+Write a program that asks for age and prints the ticket price.
+
+---
+
+### **9️⃣ ATM Cash Withdrawal System**  
+Write a program that:  
+- Takes **account balance** and **withdrawal amount**.  
+- If withdrawal amount is **less than or equal to balance**, print `"Transaction Successful!"` and update the balance.  
+- If withdrawal amount is **greater than balance**, print `"Insufficient funds!"`.  
+
+---
+
+### **🔟 Weekday Detector Using `switch`**  
+Write a JavaScript program that takes a number (1-7) and prints the corresponding weekday using a `switch` statement:  
+- **1 → "Monday"**  
+- **2 → "Tuesday"**  
+- **3 → "Wednesday"**  
+- …  
+- **7 → "Sunday"**  
+- If the number is not between 1 and 7, print `"Invalid number"`.
+
+---
+
+### **1️⃣1️⃣ Employee Bonus Calculator**  
+- An employee gets a **10% bonus** if they have worked for **5 years or more** in a company.  
+- Otherwise, they get **no bonus**.  
+- Write a program that takes `salary` and `yearsOfService` as inputs and calculates the final salary.  
+
+---
+
+### **1️⃣2️⃣ Weather Advisory System**  
+Write a program that takes the **temperature** as input and gives advice:  
+- If **temperature ≥ 35°C**, print `"It's too hot! Stay indoors."`  
+- If **temperature is between 20°C and 34°C**, print `"The weather is nice."`  
+- If **temperature < 20°C**, print `"It's cold! Wear warm clothes."`  
+
+---
+
+### **1️⃣3️⃣ Online Shopping Delivery System**  
+A store offers **free delivery** only if:  
+- The **order amount is ₹1000 or more**.  
+- Otherwise, there is a **delivery charge of ₹50**.  
+Write a program to calculate the total amount the customer needs to pay.  
+
+---
+
+### **1️⃣4️⃣ Exam Passing Condition**  
+A student needs **at least 40 marks in each subject** and a **total of 150 marks** to pass.  
+- Take input for `mathMarks`, `scienceMarks`, and `englishMarks`.  
+- Check whether the student has passed or failed.  
+
+---
+
+### **1️⃣5️⃣ Train Ticket Pricing System**  
+- If a passenger is **below 5 years old**, print `"Free ticket"`  
+- If **5 to 12 years old**, print `"Child ticket: ₹100"`  
+- If **13 to 60 years old**, print `"Adult ticket: ₹250"`  
+- If **above 60**, print `"Senior citizen ticket: ₹150"`  
+
+---
+
+### **1️⃣6️⃣ Mobile Data Plan Recommendation**  
+Write a program that:  
+- Asks the user how much **mobile data (GB)** they need.  
+- If **less than 5GB**, recommend `"Basic Plan - ₹199/month"`  
+- If **between 5GB and 15GB**, recommend `"Standard Plan - ₹399/month"`  
+- If **more than 15GB**, recommend `"Unlimited Plan - ₹699/month"`  
+
+---
+
+### **1️⃣7️⃣ Restaurant Menu Ordering System (`switch` Statement)**  
+Create a simple restaurant menu system where:  
+- `"1"` selects **Burger - ₹120**  
+- `"2"` selects **Pizza - ₹250**  
+- `"3"` selects **Pasta - ₹180**  
+- `"4"` selects **Biryani - ₹300**  
+- `"5"` selects **Cold Drink - ₹50**  
+- If the user enters an invalid option, print `"Invalid choice. Please select from the menu."`  
+
+---
+
+### **1️⃣8️⃣ Student Attendance Checker**  
+- If a student has **attendance ≥ 75%**, they are **allowed** to sit for the exam.  
+- Otherwise, print `"Not allowed to sit for the exam due to low attendance."`  
+
+---
+
+### **1️⃣9️⃣ Loan Eligibility Checker**  
+A bank grants **loans only if**:  
+- The person has a **stable income**.  
+- Their **credit score is above 750**.  
+Write a program that takes `incomeStatus` (Yes/No) and `creditScore` and checks **loan eligibility**.  
+
+---
+
+### **2️⃣⿠ Smart Home Light Control System**  
+- If `time >= 18:00` and `time <= 6:00`, print `"Turn on the lights."`  
+- Otherwise, print `"Keep the lights off."`  
+- (Bonus: Modify it to turn lights ON/OFF based on **motion detection** too!)  
+
+
