@@ -102,6 +102,7 @@
 9. **Merge Two Objects:** Combine `{a:1}` and `{b:2}`.
 10. **Convert Object to Array:** Convert `{a:10, b:20}` into `[['a', 10], ['b', 20]]`.
 
+---
 
 ## 🚀 **4. Conditional Statements (if, else, else if, switch)**  
 
